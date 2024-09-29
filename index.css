@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color:red ;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 10px;
+}
+.containers{
+    border: thin solid black;
+    width: 70%;
+    height: 43vh;
+    margin: 40px auto;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.089);
+    border: none;
+    padding-top: 20px;
+    
+}
+.containers div input{
+    width: 94%;
+    border: thin solid  rgba(0, 0, 0, 0.219);
+    height: 6.5vh;
+    margin-top: 10px;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.containers div input:hover{
+   /* border-color: rgba(0, 0, 255, 0.479); */
+   box-shadow: 0 0 3px 1px #0d6efd;
+}
+.containers div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containers button{
+    width: 94%;
+    border: thin solid  rgba(0, 0, 0, 0.219);
+    height: 6.5vh;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px auto;
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.308);
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+
+}
+.containers p{
+    font-size: 20px;
+    text-align: center;
+    color: red;
+}
+#table{
+    border: thin solid black;
+    width: 70%;
+    /* height: 20vh; */
+    background-color: rgba(0, 0, 0, 0.226);
+    margin: auto;
+    display: none;
+    border: none;
+}
+td{
+    border: thin solid white;
+    width: 1200px;
+    height:5vh;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.24);
+    font-size: 12px;
+    /* border: none; */
+    color: white;
+
+}
+/* tr{
+    /* background-color: rgba(0, 0, 0, 0.24); */
+
+/* }  */
+#delete{
+    border: thin solid red;
+    width: 80px;
+    height: 7vh;
+    background-color: red;
+    border-radius: 10px;
+}
+.Edit{
+    border: thin solid green;
+    width: 80px;
+    height: 7vh;
+    background-color: green;
+    border-radius: 10px;
+}
